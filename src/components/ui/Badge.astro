@@ -1,0 +1,28 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+  variant?: "default" | "outline";
+  icon?: string;
+  class?: string;
+}
+
+const { variant = "default", icon, class: className, ...rest } = Astro.props;
+
+const variants = {
+  default: "border-skin-hue/20 bg-skin-button-accent/10 text-skin-hue",
+  outline: "border-skin-hue/60 text-skin-hue",
+};
+---
+
+<li
+  class:list={[
+    "flex select-none items-center gap-1 rounded-md border border-solid px-2 py-0.5 text-xs backdrop-blur-sm transition-all duration-200 print:border-none print:bg-transparent print:p-0 print:text-zinc-800",
+    variants[variant],
+    className,
+  ]}
+  {...rest}
+>
+  {icon && <Icon name={icon} width={16} height={16} />}
+  <span><slot /></span>
+</li>

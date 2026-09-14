@@ -1,0 +1,18 @@
+---
+import Section from '../Section.astro'
+import { skills } from '@cv'
+import Badge from '@/components/ui/Badge.astro'
+---
+
+<Section className={Astro.props.className} title='Habilidades'>
+  <ul
+    class='w-100 inline-flex print:mt-4 flex-wrap gap-4 [&>li>svg]:text-skin-hue [&>li]:text-sm'>
+    {
+      skills.map(({ name, icon}) => {
+        return (
+          <Badge icon={icon} class="cursor-default transform hover:-translate-y-2 hover:scale-110 sm:hover:cursor-none">{name}</Badge>
+        )
+      })
+    }
+  </ul>
+</Section>

@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-base: 0, 0, 0;
+    --color-text-muted: 120, 120, 120;
+    --color-text-inverted: 255, 255, 255;
+    --color-fill: 245, 245, 245;
+    --muted: 200, 200, 200;
+    --color: 249, 115, 22;
+    --color-button-accent: 249, 115, 22;
+    --color-button-accent-hover: 55, 55, 55;
+    --color-button-muted: 244, 239, 238;
+    --color-nvim-button: 95, 175, 215;
+    --color-nvim-blue: 35, 95, 135;
+    --color-nvim-green: 0, 150, 0;
+
+    [data-theme="blue"] {
+      --color-text-base: 15, 23, 42;
+      --color-text-muted: 100, 116, 139;
+      --color-text-inverted: 240, 240, 240;
+      --color-fill: 203, 213, 225;
+      --muted: 148, 163, 184;
+      --color: 59, 130, 246;
+      --color-button-accent: 59, 130, 246;
+      --color-button-accent-hover: 0, 185, 255;
+      --color-button-muted: 226, 232, 240;
+      --color-nvim-blue: 95, 175, 215;
+      --color-nvim-green: 0, 150, 0;
+    }
+
+    [data-theme="green"] {
+      --color-text-base: 40, 40, 40;
+      --color-text-muted: 110, 110, 110;
+      --color-text-inverted: 230, 230, 230;
+      --color-fill: 236, 252, 203;
+      --muted: 189, 220, 147;
+      --color: 101, 163, 13;
+      --color-button-accent: 101, 163, 13;
+      --color-button-accent-hover: 120, 220, 120;
+      --color-button-muted: 211, 235, 173;
+      --color-nvim-blue: 95, 175, 215;
+      --color-nvim-green: 0, 150, 0;
+    }
+
+    [data-theme="platinum"] {
+      /* Platinum - Ultra Premium */
+      --color-text-base: 31, 41, 55;
+      --color-text-muted: 107, 114, 128;
+      --color-text-inverted: 255, 255, 255;
+      --color-fill: 249, 250, 251;
+      --muted: 209, 213, 219;
+      --color: 55, 65, 81;
+      --color-button-accent: 55, 65, 81;
+      --color-button-accent-hover: 31, 41, 55;
+      --color-button-muted: 243, 244, 246;
+      --color-nvim-blue: 99, 102, 241;
+      --color-nvim-green: 16, 185, 129;
+    }
+  }
+
+  .dark {
+    --color-text-base: 255, 255, 255;
+    --color-text-muted: 150, 150, 150;
+    --color-text-inverted: 255, 255, 255;
+    --color-fill: 18, 18, 18;
+    --muted: 36, 36, 36;
+    --color: 227, 77, 10;
+    --color-button-accent: 227, 77, 10;
+    --color-button-accent-hover: 231, 121, 43;
+    --color-button-muted: 26, 26, 26;
+    --color-nvim-blue: 95, 175, 215;
+    --color-nvim-green: 135, 215, 135;
+
+    [data-theme="blue"] {
+      --color-text-base: 248, 250, 252;
+      --color-text-muted: 148, 163, 184;
+      --color-text-inverted: 240, 240, 240;
+      --color-fill: 2, 6, 23;
+      --muted: 51, 65, 85;
+      --color: 59, 130, 246;
+      --color-button-accent: 59, 130, 246;
+      --color-button-accent-hover: 0, 185, 255;
+      --color-button-muted: 30, 41, 59;
+      --color-nvim-blue: 95, 175, 215;
+      --color-nvim-green: 135, 215, 135;
+    }
+
+    [data-theme="green"] {
+      --color-text-base: 230, 230, 230;
+      --color-text-muted: 104, 124, 104;
+      --color-text-inverted: 230, 230, 230;
+      --color-fill: 10, 20, 10;
+      --muted: 54, 64, 54;
+      --color: 132, 204, 22;
+      --color-button-accent: 132, 204, 22;
+      --color-button-accent-hover: 120, 220, 120;
+      --color-button-muted: 34, 44, 34;
+      --color-nvim-blue: 95, 175, 215;
+      --color-nvim-green: 135, 215, 135;
+    }
+
+    [data-theme="platinum"] {
+      /* Platinum Dark - Ultra Sophisticated */
+      --color-text-base: 248, 250, 252;
+      --color-text-muted: 156, 163, 175;
+      --color-text-inverted: 31, 41, 55;
+      --color-fill: 17, 24, 39;
+      --muted: 55, 65, 81;
+      --color: 156, 163, 175;
+      --color-button-accent: 156, 163, 175;
+      --color-button-accent-hover: 209, 213, 219;
+      --color-button-muted: 31, 41, 55;
+      --color-nvim-blue: 129, 140, 248;
+      --color-nvim-green: 52, 211, 153;
+    }
+  }
+
+  body {
+    @apply bg-nvim-bg text-nvim-fg font-mono select-none;
+    --color-hover-soft: color-mix(in srgb, rgb(var(--color)) 8%, rgb(var(--color-fill)) 92%);
+
+    .c-cursor {
+      position: fixed;
+      z-index: 999999999;
+      pointer-events: none;
+      border-radius: 200px;
+      @apply bg-skin-hue/20;
+    }
+  }
+
+  .modified-cursor-none {
+    cursor: none !important;
+  }
+  .hover-grad-text {
+    @apply text-center text-transparent bg-clip-text transition-all ease-in-out duration-700;
+    background-image: linear-gradient(
+            to right,
+            theme("colors.slate.950"),
+            theme("colors.slate.950") 33%,
+            theme("colors.red.500") 66%,
+            theme("colors.orange.400"),
+            theme("colors.yellow.500"),
+            theme("colors.blue.700"),
+            theme("colors.purple.500")
+    );
+    background-size: 300% 100%;
+    background-position: top left 100%;
+  }
+
+  @media screen and (min-width: 640px) {
+    .hover-grad-text {
+      background-position: top left;
+    }
+    .hover-grad-text:hover {
+      background-position: top left 100%;
+    }
+  }
+
+  .animate-marker {
+    animation: marker 4s ease-out infinite;
+  }
+
+  @keyframes marker {
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+    35% {
+      transform: translate(-50%, -50%) scale(6);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(6);
+      opacity: 0;
+    }
+  }
+
+  .scrollbar-thin::-webkit-scrollbar { height: 10px; }
+  .scrollbar-thumb-gray-800::-webkit-scrollbar-thumb { background-color: #a0aec0; border-radius: 4px; }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #222;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #222;
+}
+ /* removed scrollbar */
+html, body {
+  @apply scrollbar-hide;
+}

@@ -1,0 +1,277 @@
+{
+  "analyticsCode": "",
+  "basics": {
+    "name": "Esteban Ledezma",
+    "role": "Desarrollador Full-Stack",
+    "image": "/og-image.png",
+    "email": "ledezmatenaesteban@gmail.com",
+    "url": "https://esteban-lt.github.io",
+    "summary": "Ingeniero en Sistemas Computacionales con experiencia en desarrollo de software con el ecosistema JavaScript/TypeScript. Conocimientos en diseño UX/UI. Disponible para trabajo y nuevos proyectos.",
+    "theme": "platinum",
+    "location": {
+      "address": "Cuauhtémoc",
+      "city": "Chihuahua",
+      "countryCode": "MX",
+      "region": "México"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "icon": "ri:linkedin-fill",
+        "color": "#0A66C2",
+        "username": "esteban-ledezma",
+        "url": "https://www.linkedin.com/in/esteban-ledezma/"
+      },
+      {
+        "network": "GitHub",
+        "icon": "mdi:github",
+        "color": "#929AAB",
+        "username": "esteban-lt",
+        "url": "https://github.com/esteban-lt"
+      },
+      {
+        "network": "Email",
+        "icon": "ri:mail-fill",
+        "color": "#D44638",
+        "username": "Esteban Ledezma",
+        "url": "mailto:ledezmatenaesteban@gmail.com"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Grupo Rosa",
+      "position": "Desarrollador",
+      "location_type": "Presencial",
+      "location": "Cuauhtémoc, Chihuahua",
+      "url": null,
+      "startDate": "Marzo 2025",
+      "endDate": "Marzo 2026",
+      "duration": "1 año",
+      "summary": null,
+      "responsibilities": [
+        "Participé en proyectos de soluciones IoT para el análisis en tiempo real de vibración en maquinaria y para el monitoreo de movimiento e inclinaciones en racks.",
+        "Construí dashboards para la visualización de datos, integrando APIs, WebSockets y bases de datos MySQL y PostgreSQL.",
+        "Desarrollé sistemas web internos con PHP, Node.js, Express y Vue.js, incluyendo aplicaciones administrativas, sustitución de archivos de Excel y paneles de gestión.",
+        "Diseñé APIs RESTful para diferentes aplicaciones y servicios."
+      ],
+      "skills": {
+        "JavaScript": "simple-icons:javascript",
+        "Vue": "simple-icons:vuedotjs",
+        "Node.js": "simple-icons:nodedotjs",
+        "Express.js": "simple-icons:express",
+        "PHP": "simple-icons:php",
+        "MySQL": "simple-icons:mysql",
+        "PostgreSQL": "simple-icons:postgresql",
+        "Git": "mdi:git",
+        "GitHub": "mdi:github"
+      }
+    },
+    {
+      "name": "ITCC",
+      "position": "Instructor",
+      "location_type": "Presencial",
+      "location": "Cuauhtémoc, Chihuahua",
+      "url": null,
+      "startDate": "Marzo 2026",
+      "endDate": null,
+      "duration": null,
+      "summary": null,
+      "responsibilities": [
+        "Diseñé e impartí un taller intensivo sobre Node.js, Express y GitHub para 20 alumnos.",
+        "Guié a los participantes en el desarrollo de una API RESTful, aplicando código limpio y principios SOLID.",
+        "Enseñé a probar endpoints con Postman y a consumirlos desde una aplicación de React.",
+        "Cubrí varios temas de git y GitHub como repositorios, commits, ramas, pull requests e issues."
+      ],
+      "skills": {
+        "Node.js": "simple-icons:nodedotjs",
+        "Express.js": "simple-icons:express",
+        "Git": "mdi:git",
+        "GitHub": "mdi:github",
+        "Postman": "simple-icons:postman"
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnológico de Cd. Cuauhtémoc", 
+      "startDate": "Septiembre 2022", 
+      "endDate": "Diciembre 2026", 
+      "area": "Ingeniería en Sistemas Computacionales", 
+      "url": null
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Patrones de Diseño", 
+      "date": "Agosto 2026", 
+      "issuer": "Udemy", 
+      "url": "https://www.udemy.com/certificate/UC-9bcd709c-8bba-46ce-b9fe-cbd4b8dbe179/"
+    },
+    {
+      "name": "Principios SOLID y Clean Code", 
+      "date": "Junio 2026", 
+      "issuer": "Udemy", 
+      "url": "https://www.udemy.com/certificate/UC-55edef26-f41a-4320-a2d9-634a38780b2f/"
+    },
+    {
+      "name": "Node - Autenticación Rest con Clean Architecture", 
+      "date": "Abril 2026", 
+      "issuer": "DevTalles", 
+      "url": "https://cursos.devtalles.com/certificates/irejzrtkwk"
+    },
+    {
+      "name": "Google Cloud Computing Foundations", 
+      "date": "Diciembre 2025", 
+      "issuer": "Google", 
+      "url": "https://www.credly.com/badges/d127cb2b-2ee7-432a-96a5-af2ed82c9f0c/linked_in_profile"
+    },
+    {
+      "name": "Docker - Guía práctica de uso para desarrolladores", 
+      "date": "Noviembre 2025", 
+      "issuer": "Udemy", 
+      "url": "https://www.udemy.com/certificate/UC-d4e58855-a2bf-48c1-bd03-f7ef9c8c721e/"
+    },
+    {
+      "name": "Certificado de Diseño de Experiencia del Usuario (UX)", 
+      "date": "Marzo 2025", 
+      "issuer": "Google", 
+      "url": "https://www.credly.com/badges/ca1e4277-209b-4aca-949b-a035466ba4a3/linked_in_profile"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "icon": "simple-icons:html5"
+    },
+    {
+      "name": "CSS",
+      "icon": "ri:css3-fill"
+    },
+    {
+      "name": "Tailwind",
+      "icon": "mdi:tailwind"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "simple-icons:javascript"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "simple-icons:typescript"
+    },
+    {
+      "name": "React",
+      "icon": "simple-icons:react"
+    },
+    {
+      "name": "Vue",
+      "icon": "simple-icons:vuedotjs"
+    },
+    {
+      "name": "Astro",
+      "icon": "simple-icons:astro"
+    },
+    {
+      "name": "Node",
+      "icon": "simple-icons:nodedotjs"
+    },
+    {
+      "name": "Express",
+      "icon": "simple-icons:express"
+    },
+    {
+      "name": "NestJS",
+      "icon": "simple-icons:nestjs"
+    },
+        {
+      "name": "Git",
+      "icon": "mdi:git"
+    },
+    {
+      "name": "GitHub",
+      "icon": "mdi:github"
+    },
+    {
+      "name": "MySQL",
+      "icon": "simple-icons:mysql"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "simple-icons:postgresql"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "simple-icons:mongodb"
+    },
+    {
+      "name": "Google Cloud",
+      "icon": "simple-icons:googlecloud"
+    },
+    {
+      "name": "AWS",
+      "icon": "mdi:aws"
+    },
+    {
+      "name": "Docker",
+      "icon": "mdi:docker"
+    },
+    {
+      "name": "Postman",
+      "icon": "simple-icons:postman"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "B2"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pulsed",
+      "isActive": true,
+      "description": "Plataforma que centraliza la actividad de tus repositorios de GitHub y te notifica cuando algo relevante ocurre, para no tener que revisar GitHub manualmente.",
+      "highlights": [
+        "Seguimiento de la actividad de tus repos usando la API de GitHub.",
+        "Feed de actividad en tiempo real vía Server-Sent Events, sin necesidad de recargar la página.",
+        "Notificaciones por Discord, correo y Slack (próximamente)."
+      ],
+      "stack": {
+        "TypeScript": "simple-icons:typescript",
+        "React": "simple-icons:react",
+        "Tailwind": "simple-icons:tailwindcss",
+        "Node.js": "simple-icons:nodedotjs",
+        "Express": "simple-icons:express",
+        "NestJS": "simple-icons:nestjs",
+        "PostgreSQL": "simple-icons:postgresql"
+      },
+      "url": "https://github.com/esteban-lt/pulsed",
+      "github": null
+    },
+    {
+      "name": "QMS",
+      "isActive": true,
+      "description": "Plataforma multi-tenant de gestión de turnos similar al de un banco.",
+      "highlights": [
+        "Arquitectura multi-tenant donde cada organización administra sus sucursales, ventanillas y roles (admin/manager/operator).",
+        "Backend desarrollado en Express con Clean Architecture.",
+        "Actualizaciones en tiempo real usando WebSockets, para que las pantallas de espera reflejen el estado de las ventanillas al instante."
+      ],
+      "stack": {
+        "TypeScript": "simple-icons:typescript",
+        "React": "simple-icons:react",
+        "Tailwind": "simple-icons:tailwindcss",
+        "Node.js": "simple-icons:nodedotjs",
+        "Express": "simple-icons:express",
+        "PostgreSQL": "simple-icons:postgresql"
+      },
+      "url": "https://github.com/esteban-lt/queue-management-system",
+      "github": null
+    }
+  ]
+}
